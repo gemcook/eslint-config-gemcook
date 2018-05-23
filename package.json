@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-gemcook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://shsssskn@github.com/gemcook/eslint-config-gemcook.git",
+  "author": "shsssskn <s.nishino@gemcook.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-eslint": "8.2.3",
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-flowtype": "2.47.1",
+    "eslint-plugin-import": "2.12.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-react": "7.8.2",
+    "fbjs": "0.9.0-alpha.2",
+    "prettier": "1.12.1"
+  },
+  "dependencies": {
+    "confusing-browser-globals": "2.0.0-next.66cc7a90"
+  }
+}
