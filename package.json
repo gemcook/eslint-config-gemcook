@@ -14,8 +14,7 @@
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.9.1",
-    "fbjs": "0.9.0-alpha.2",
-    "prettier": "1.12.1"
+    "prettier": "^1.13.4"
   },
   "dependencies": {
     "confusing-browser-globals": "2.0.0-next.66cc7a90"
