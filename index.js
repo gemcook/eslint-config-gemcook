@@ -1,4 +1,11 @@
+'use strict';
+
 const restrictedGlobals = require('confusing-browser-globals');
+
+const OFF = 0;
+const WARNING = 1;
+const ERROR = 2;
+const INDENT_SIZE = 2;
 
 module.exports = {
   root: true,
@@ -7,7 +14,7 @@ module.exports = {
 
   extends: ['fbjs', 'prettier', 'prettier/flowtype', 'prettier/react'],
 
-  plugins: ['import', 'flowtype', 'jsx-a11y', 'react', 'prettier'],
+  plugins: ['babel', 'import', 'flowtype', 'jsx-a11y', 'react', 'prettier'],
 
   env: {
     browser: true,
@@ -26,9 +33,9 @@ module.exports = {
   rules: {
     strict: 'off',
     // global変数は`window.`記述を必須とする。
-    'no-restricted-globals': ['error'].concat(restrictedGlobals),
+    'no-restricted-globals': [ERROR].concat(restrictedGlobals),
     'prettier/prettier': [
-      'error',
+      ERROR,
       {
         singleQuote: true,
         trailingComma: 'all',
@@ -38,15 +45,8 @@ module.exports = {
         parser: 'babylon',
       },
     ],
-    'no-confusing-arrow': 'error',
-    'no-mixed-operators': 'error',
-    'no-unexpected-multiline': 'error',
-    'import/no-unresolved': [
-      'off',
-      {
-        commonjs: false,
-        amd: false,
-      },
-    ],
+    'no-confusing-arrow': ERROR,
+    'no-mixed-operators': ERROR,
+    'no-unexpected-multiline': ERROR,
   },
 };
