@@ -48,5 +48,6 @@ module.exports = {
     'no-confusing-arrow': ERROR,
     'no-mixed-operators': ERROR,
     'no-unexpected-multiline': ERROR,
+    'no-console': [WARNING, {allow: ['info', 'error']}],
   },
 };
