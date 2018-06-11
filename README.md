@@ -7,7 +7,7 @@
 copy and paste
 
 ```shell
-npm install --save eslint-config-gemcook \
+npm install --save-dev eslint-config-gemcook \
   babel-eslint \
   eslint \
   eslint-config-prettier \
@@ -23,7 +23,7 @@ npm install --save eslint-config-gemcook \
 or
 
 ```shell
-yarn add eslint-config-gemcook \
+yarn add --dev eslint-config-gemcook \
   babel-eslint \
   eslint \
   eslint-config-prettier \
