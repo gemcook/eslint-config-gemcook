@@ -5,6 +5,9 @@
   "repository": "https://shsssskn@github.com/gemcook/eslint-config-gemcook.git",
   "author": "shsssskn <s.nishino@gemcook.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "yarn run eslint ./test/ --config ./index.js --output-file ./test/report --no-color --ignore-pattern [index.js, .eslintrc.json]"
+  },
   "peerDependencies": {
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
@@ -21,5 +24,20 @@
   },
   "dependencies": {
     "confusing-browser-globals": "2.0.0-next.66cc7a90"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-fbjs": "^2.0.1",
+    "eslint-config-gemcook": "^1.0.4",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-flowtype": "^2.49.3",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.9.1",
+    "eslint-plugin-relay": "^0.0.21",
+    "prettier": "^1.13.5"
   }
 }
