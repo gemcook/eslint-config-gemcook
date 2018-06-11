@@ -10,7 +10,9 @@ copy and paste
 npm install --save-dev eslint-config-gemcook \
   babel-eslint \
   eslint \
+  eslint-config-fbjs \
   eslint-config-prettier \
+  eslint-plugin-prettier \
   eslint-plugin-babel \
   eslint-plugin-flowtype \
   eslint-plugin-import \
@@ -26,7 +28,9 @@ or
 yarn add --dev eslint-config-gemcook \
   babel-eslint \
   eslint \
+  eslint-config-fbjs \
   eslint-config-prettier \
+  eslint-plugin-prettier \
   eslint-plugin-babel \
   eslint-plugin-flowtype \
   eslint-plugin-import \
