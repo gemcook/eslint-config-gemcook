@@ -39,3 +39,12 @@ yarn add --dev eslint-config-gemcook \
   eslint-plugin-relay \
   prettier
 ```
+
+## Config
+
+create .eslintrc.json
+```json
+{
+  "extends": "gemcook"
+}
+```
