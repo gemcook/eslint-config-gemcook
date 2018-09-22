@@ -6,44 +6,47 @@
 
 copy and paste
 
-```shell
-npm install --save-dev eslint-config-gemcook \
-  babel-eslint \
+```sh
+npm install --save-dev babel-eslint \
   eslint \
   eslint-config-fbjs \
+  eslint-config-gemcook \
   eslint-config-prettier \
-  eslint-plugin-prettier \
   eslint-plugin-babel \
   eslint-plugin-flowtype \
   eslint-plugin-import \
   eslint-plugin-jsx-a11y \
+  eslint-plugin-prettier \
   eslint-plugin-react \
   eslint-plugin-relay \
-  prettier
+  prettier \
+  prettier-eslint
 ```
 
 or
 
-```shell
-yarn add --dev eslint-config-gemcook \
-  babel-eslint \
+```sh
+yarn add --dev babel-eslint \
   eslint \
   eslint-config-fbjs \
+  eslint-config-gemcook \
   eslint-config-prettier \
-  eslint-plugin-prettier \
   eslint-plugin-babel \
   eslint-plugin-flowtype \
   eslint-plugin-import \
   eslint-plugin-jsx-a11y \
+  eslint-plugin-prettier \
   eslint-plugin-react \
   eslint-plugin-relay \
-  prettier
+  prettier \
+  prettier-eslint
 ```
 
 ## Config
 
-create .eslintrc.json
-```json
+Then create a file named .eslintrc with following contents in the root folder of your project:
+
+```js
 {
   "extends": "gemcook"
 }
