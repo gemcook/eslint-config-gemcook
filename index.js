@@ -6,16 +6,20 @@ const OFF = 0;
 const WARNING = 1;
 const ERROR = 2;
 const INDENT_SIZE = 2;
+const printWidth = 80;
 
 module.exports = {
   root: true,
-
   parser: 'babel-eslint',
-
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
   extends: ['fbjs', 'prettier', 'prettier/flowtype', 'prettier/react'],
-
   plugins: ['babel', 'import', 'flowtype', 'jsx-a11y', 'react', 'prettier'],
-
   env: {
     browser: true,
     commonjs: true,
@@ -23,16 +27,7 @@ module.exports = {
     jest: true,
     node: true,
   },
-
-  parserOptions: {
-    sourceType: 'module',
-    allowImportExportEverywhere: false,
-    codeFrame: false,
-  },
-
   rules: {
-    strict: 'off',
-    // global変数は`window.`記述を必須とする。
     'no-restricted-globals': [ERROR].concat(restrictedGlobals),
     'prettier/prettier': [
       ERROR,
@@ -41,10 +36,12 @@ module.exports = {
         trailingComma: 'all',
         bracketSpacing: false,
         jsxBracketSameLine: false,
-        printWidth: 80,
+        printWidth,
         parser: 'babylon',
       },
     ],
+    curly: [ERROR, 'all'],
+    'max-len': [ERROR, {code: printWidth, ignoreUrls: true}],
     'no-confusing-arrow': ERROR,
     'no-mixed-operators': ERROR,
     'no-unexpected-multiline': ERROR,

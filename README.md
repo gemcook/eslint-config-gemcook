@@ -1,48 +1,49 @@
 # eslint-config-gemcook
 
----
+## Usage
 
-## Installation
+### Install:
 
-copy and paste
+#### `npm`
 
 ```sh
-npm install --save-dev babel-eslint \
-  eslint \
-  eslint-config-fbjs \
+npm install --save-dev \
   eslint-config-gemcook \
+  eslint-config-fbjs \
   eslint-config-prettier \
   eslint-plugin-babel \
-  eslint-plugin-flowtype \
   eslint-plugin-import \
+  eslint-plugin-flowtype \
   eslint-plugin-jsx-a11y \
-  eslint-plugin-prettier \
   eslint-plugin-react \
   eslint-plugin-relay \
-  prettier \
+  eslint-plugin-prettier \
+  eslint \
+  babel-eslint \
   prettier-eslint
 ```
 
-or
+
+#### `yarn`
 
 ```sh
-yarn add --dev babel-eslint \
-  eslint \
-  eslint-config-fbjs \
+yarn add --dev \
   eslint-config-gemcook \
+  eslint-config-fbjs \
   eslint-config-prettier \
   eslint-plugin-babel \
-  eslint-plugin-flowtype \
   eslint-plugin-import \
+  eslint-plugin-flowtype \
   eslint-plugin-jsx-a11y \
-  eslint-plugin-prettier \
   eslint-plugin-react \
   eslint-plugin-relay \
-  prettier \
+  eslint-plugin-prettier \
+  eslint \
+  babel-eslint \
   prettier-eslint
 ```
 
-## Config
+### Configure
 
 Then create a file named .eslintrc with following contents in the root folder of your project:
 
