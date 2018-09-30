@@ -41,7 +41,6 @@ module.exports = {
       },
     ],
     curly: [ERROR, 'all'],
-    'max-len': [ERROR, {code: printWidth, ignoreUrls: true}],
     'no-confusing-arrow': ERROR,
     'no-mixed-operators': ERROR,
     'no-unexpected-multiline': ERROR,
