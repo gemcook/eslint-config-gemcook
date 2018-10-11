@@ -45,5 +45,6 @@ module.exports = {
     'no-mixed-operators': ERROR,
     'no-unexpected-multiline': ERROR,
     'no-console': [WARNING, {allow: ['info', 'error']}],
+    'no-extra-parens': [ERROR, 'all', {nestedBinaryExpressions: false}],
   },
 };

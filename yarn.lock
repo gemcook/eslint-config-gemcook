@@ -3,6 +3,6 @@
 
 
 confusing-browser-globals@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.1.tgz#1e29b0ea381370457012be10025287d335a5e41e"
-  integrity sha512-x1necx9DSvDjda/ovFIz73PmJd3MWv86k7TZPBjIQEV39ec2cfT5s7EQxg30Ch1VqociIHbObr7EsqdFF01wHA==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.3.tgz#fefd5f993b4833fd814dc85633528d03df6e758c"
+  integrity sha512-I+wBkVHWYZtnYj3/Ix72w7zHn9kM3pJJ9IkegXa+V3Hlw91Q+1lVlIbwW81GpoH2mHfNr+HTEPdLzMEtbvzYhQ==
