@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gemcook",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "main": "index.js",
   "repository": "https://shsssskn@github.com/gemcook/eslint-config-gemcook.git",
   "author": "shsssskn <s.nishino@gemcook.com>",
@@ -12,6 +12,6 @@
     "test": "yarn run eslint ./test/ --config ./index.js --output-file ./test/report --no-color --ignore-pattern [index.js, .eslintrc.json]"
   },
   "dependencies": {
-    "confusing-browser-globals": "^1.0.1"
+    "confusing-browser-globals": "^1.0.3"
   }
 }
