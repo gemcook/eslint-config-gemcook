@@ -1,7 +1,5 @@
 'use strict';
 
-const restrictedGlobals = require('confusing-browser-globals');
-
 const OFF = 0;
 const WARNING = 1;
 const ERROR = 2;
@@ -14,21 +12,16 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true,
-    },
   },
-  extends: ['fbjs', 'prettier', 'prettier/flowtype', 'prettier/react'],
-  plugins: ['babel', 'import', 'flowtype', 'jsx-a11y', 'react', 'prettier'],
+  extends: ['fbjs', 'prettier', 'prettier/flowtype', 'plugin:node/recommended'],
+  plugins: ['babel', 'import', 'flowtype', 'prettier'],
   env: {
-    browser: true,
     commonjs: true,
     es6: true,
     jest: true,
     node: true,
   },
   rules: {
-    'no-restricted-globals': [ERROR].concat(restrictedGlobals),
     'prettier/prettier': [
       ERROR,
       {

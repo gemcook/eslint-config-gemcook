@@ -6,7 +6,8 @@
   "author": "shsssskn <s.nishino@gemcook.com>",
   "license": "MIT",
   "files": [
-    "index.js"
+    "index.js",
+    "node.js"
   ],
   "scripts": {
     "test": "yarn run eslint ./test/ --config ./index.js --output-file ./test/report --no-color --ignore-pattern [index.js, .eslintrc.json]"
