@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-confusing-browser-globals@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.3.tgz#fefd5f993b4833fd814dc85633528d03df6e758c"
-  integrity sha512-I+wBkVHWYZtnYj3/Ix72w7zHn9kM3pJJ9IkegXa+V3Hlw91Q+1lVlIbwW81GpoH2mHfNr+HTEPdLzMEtbvzYhQ==
+confusing-browser-globals@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.4.tgz#7d3ae232117abdf158f968c1ebeeab42ea980991"
+  integrity sha512-oS1wYNQBHNxM7xnwetiG8X4QjEbWwSzQjcBTtsz0HTNLCTBsepo12z557p9I9F9gYCHaVGQ3rcJD/tQgprGlRA==

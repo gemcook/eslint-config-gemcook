@@ -87,7 +87,7 @@ yarn add --dev \
 
 Then create a file named .eslintrc with following contents in the root folder of your project:
 
-Web
+#### Web
 
 ```js
 {
@@ -95,10 +95,29 @@ Web
 }
 ```
 
-Node.js
+#### Node.js
 
 ```js
 {
   "extends": "gemcook/node"
+}
+```
+
+### Tips
+
+if you use Node.js, follow described below.
+
+e.g. package.json
+
+Disallow unsupported ECMAScript features on the specified version (no-unsupported-features)
+https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features.md#version
+
+```
+{
+    "name": "your-module",
+    "version": "1.0.0",
+    "engines": {
+        "node": ">=6.0.0"
+    }
 }
 ```
