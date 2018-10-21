@@ -34,10 +34,11 @@ npm install --save-dev \
   eslint-config-prettier \
   eslint-plugin-babel \
   eslint-plugin-import \
-  eslint-plugin-jsx-a11y \
   eslint-plugin-flowtype \
-  eslint-plugin-node \
+  eslint-plugin-jsx-a11y \
+  eslint-plugin-react \
   eslint-plugin-relay \
+  eslint-plugin-node \
   eslint-plugin-prettier \
   eslint \
   babel-eslint \
@@ -75,10 +76,11 @@ yarn add --dev \
   eslint-config-prettier \
   eslint-plugin-babel \
   eslint-plugin-import \
-  eslint-plugin-jsx-a11y \
   eslint-plugin-flowtype \
-  eslint-plugin-node \
+  eslint-plugin-jsx-a11y \
+  eslint-plugin-react \
   eslint-plugin-relay \
+  eslint-plugin-node \
   eslint-plugin-prettier \
   eslint \
   babel-eslint \
