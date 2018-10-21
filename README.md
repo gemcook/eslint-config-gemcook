@@ -109,8 +109,8 @@ if you use Node.js, follow described below.
 
 e.g. package.json
 
-Disallow unsupported ECMAScript features on the specified version (no-unsupported-features)
-https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features.md#version
+[Disallow unsupported ECMAScript features on the specified version (no-unsupported-features)](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features.md#version)
+
 
 ```
 {
