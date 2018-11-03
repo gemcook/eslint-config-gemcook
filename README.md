@@ -4,48 +4,6 @@
 
 ### Install:
 
-#### `npm`
-
-##### Web
-
-```sh
-npm install --save-dev \
-  eslint-config-gemcook \
-  eslint-config-fbjs \
-  eslint-config-prettier \
-  eslint-plugin-babel \
-  eslint-plugin-import \
-  eslint-plugin-flowtype \
-  eslint-plugin-jsx-a11y \
-  eslint-plugin-react \
-  eslint-plugin-relay \
-  eslint-plugin-prettier \
-  eslint \
-  babel-eslint \
-  prettier-eslint
-```
-
-##### Node.js
-
-```sh
-npm install --save-dev \
-  eslint-config-gemcook \
-  eslint-config-fbjs \
-  eslint-config-prettier \
-  eslint-plugin-babel \
-  eslint-plugin-import \
-  eslint-plugin-flowtype \
-  eslint-plugin-jsx-a11y \
-  eslint-plugin-react \
-  eslint-plugin-relay \
-  eslint-plugin-node \
-  eslint-plugin-prettier \
-  eslint \
-  babel-eslint \
-  prettier-eslint
-```
-
-
 #### `yarn`
 
 ##### Web
@@ -80,8 +38,8 @@ yarn add --dev \
   eslint-plugin-jsx-a11y \
   eslint-plugin-react \
   eslint-plugin-relay \
-  eslint-plugin-node \
   eslint-plugin-prettier \
+  eslint-plugin-node \
   eslint \
   babel-eslint \
   prettier-eslint
