@@ -6,11 +6,10 @@ const OFF = 0;
 const WARNING = 1;
 const ERROR = 2;
 const INDENT_SIZE = 2;
-const printWidth = 80;
+const PRINT_WIDTH = 80;
 
 module.exports = {
   root: true,
-  parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
@@ -19,14 +18,7 @@ module.exports = {
     },
   },
   extends: ['fbjs', 'prettier', 'prettier/flowtype', 'prettier/react'],
-  plugins: ['babel', 'import', 'flowtype', 'jsx-a11y', 'react', 'prettier'],
-  env: {
-    browser: true,
-    commonjs: true,
-    es6: true,
-    jest: true,
-    node: true,
-  },
+  plugins: ['import', 'prettier'],
   rules: {
     'no-restricted-globals': [ERROR].concat(restrictedGlobals),
     'prettier/prettier': [
@@ -36,7 +28,7 @@ module.exports = {
         trailingComma: 'all',
         bracketSpacing: false,
         jsxBracketSameLine: false,
-        printWidth,
+        printWidth: PRINT_WIDTH,
         parser: 'babylon',
       },
     ],

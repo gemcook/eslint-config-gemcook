@@ -10,6 +10,6 @@
     "node.js"
   ],
   "dependencies": {
-    "confusing-browser-globals": "^1.0.4"
+    "confusing-browser-globals": "^1.0.5"
   }
 }
