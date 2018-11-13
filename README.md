@@ -20,6 +20,7 @@ yarn add --dev \
   eslint-plugin-react \
   eslint-plugin-relay \
   eslint-plugin-prettier \
+  eslint-plugin-html \
   eslint \
   babel-eslint \
   prettier-eslint
