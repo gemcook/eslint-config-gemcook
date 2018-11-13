@@ -45,17 +45,6 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.html', '*.html'],
-      rules: {
-        'prettier/prettier': [
-          ERROR,
-          {
-            parser: 'html',
-          },
-        ],
-      },
-    },
-    {
       files: ['**/*.json', '*.json'],
       rules: {
         'prettier/prettier': [
