@@ -18,7 +18,7 @@ module.exports = {
     },
   },
   extends: ['fbjs', 'prettier', 'prettier/flowtype', 'prettier/react'],
-  plugins: ['import', 'prettier', 'html'],
+  plugins: ['import', 'prettier'],
   rules: {
     'no-restricted-globals': [ERROR].concat(restrictedGlobals),
 
