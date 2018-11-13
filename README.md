@@ -23,6 +23,7 @@ yarn add --dev \
   eslint-plugin-html \
   eslint \
   babel-eslint \
+  prettier \
   prettier-eslint
 ```
 
@@ -43,6 +44,7 @@ yarn add --dev \
   eslint-plugin-node \
   eslint \
   babel-eslint \
+  prettier \
   prettier-eslint
 ```
 
