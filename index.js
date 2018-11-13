@@ -43,4 +43,61 @@ module.exports = {
     'no-unexpected-multiline': ERROR,
     'no-console': [WARNING, {allow: ['info', 'error']}],
   },
+  overrides: [
+    {
+      files: ['**/*.html', '*.html'],
+      rules: {
+        'prettier/prettier': [
+          ERROR,
+          {
+            parser: 'html',
+          },
+        ],
+      },
+    },
+    {
+      files: ['**/*.json', '*.json'],
+      rules: {
+        'prettier/prettier': [
+          ERROR,
+          {
+            parser: 'json',
+          },
+        ],
+      },
+    },
+    {
+      files: ['**/*.graphql', '*.graphql'],
+      rules: {
+        'prettier/prettier': [
+          ERROR,
+          {
+            parser: 'graphql',
+          },
+        ],
+      },
+    },
+    {
+      files: ['**/*.markdown', '*.markdown'],
+      rules: {
+        'prettier/prettier': [
+          ERROR,
+          {
+            parser: 'markdown',
+          },
+        ],
+      },
+    },
+    {
+      files: ['**/*.yaml', '*.yaml'],
+      rules: {
+        'prettier/prettier': [
+          ERROR,
+          {
+            parser: 'yaml',
+          },
+        ],
+      },
+    },
+  ],
 };
