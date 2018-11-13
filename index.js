@@ -17,16 +17,15 @@ module.exports = {
       jsx: true,
     },
   },
-  extends: [
-    'fbjs',
-    'plugin:import/errors',
-    'prettier',
-    'prettier/flowtype',
-    'prettier/react',
-  ],
-  plugins: ['prettier'],
+  extends: ['fbjs', 'prettier', 'prettier/flowtype', 'prettier/react'],
+  plugins: ['import', 'prettier'],
   rules: {
     'no-restricted-globals': [ERROR].concat(restrictedGlobals),
+
+    'import/first': 'error',
+    'import/no-amd': 'error',
+    'import/no-webpack-loader-syntax': 'error',
+
     'prettier/prettier': [
       ERROR,
       {
