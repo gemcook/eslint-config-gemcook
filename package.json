@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gemcook",
-  "version": "1.8.4",
+  "version": "1.9.1",
   "main": "index.js",
   "repository": "https://github.com/gemcook/eslint-config-gemcook.git",
   "author": "Gemcook, Inc.",

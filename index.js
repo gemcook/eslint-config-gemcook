@@ -22,6 +22,7 @@ module.exports = {
   rules: {
     'no-restricted-globals': [ERROR].concat(restrictedGlobals),
 
+    'no-duplicate-imports': ERROR,
     'import/first': 'error',
     'import/no-amd': 'error',
     'import/no-webpack-loader-syntax': 'error',
