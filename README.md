@@ -2,7 +2,6 @@
 
 - [Getting Start](#getting-start)
 	* [Install](#install)
-	* [Additional install](#additional-install)
 		+ [If your project is Web on Plain JS](#if-your-project-is-web-on-plain-js)
 		+ [If your project is Web on TypeScript](#if-your-project-is-web-on-typescript)
 		+ [If your project is Node on Plain JS](#if-your-project-is-node-on-plain-js)
@@ -20,16 +19,11 @@
 
 ### Install
 
-```Shell
-yarn add eslint-config-gemcook
-```
-
-### Additional install
-
 #### If your project is Web on Plain JS
 
 ```Shell
 yarn add --dev \
+	eslint-config-gemcook \
 	eslint \
 	eslint-config-prettier \
 	eslint-plugin-prettier \
@@ -42,6 +36,7 @@ yarn add --dev \
 
 ```Shell
 yarn add --dev \
+	eslint-config-gemcook \
 	eslint \
 	eslint-config-prettier \
 	eslint-plugin-prettier \
@@ -56,6 +51,7 @@ yarn add --dev \
 
 ```Shell
 yarn add --dev \
+	eslint-config-gemcook \
 	eslint \
 	eslint-config-prettier \
 	eslint-plugin-prettier \
@@ -69,6 +65,7 @@ yarn add --dev \
 
 ```Shell
 yarn add --dev \
+	eslint-config-gemcook \
 	eslint \
 	eslint-config-prettier \
 	eslint-plugin-prettier \
@@ -88,7 +85,7 @@ Set `.eslintrc.json`
 
 ```JSON
 {
-	"extends": "gemcook"
+  "extends": "gemcook"
 }
 ```
 
@@ -96,7 +93,7 @@ Set `.eslintrc.json`
 
 ```JSON
 {
-	"extends": "gemcook/ts"
+  "extends": "gemcook/ts"
 }
 ```
 
@@ -104,7 +101,7 @@ Set `.eslintrc.json`
 
 ```JSON
 {
-	"extends": "gemcook/node"
+  "extends": "gemcook/node"
 }
 ```
 
@@ -112,7 +109,7 @@ Set `.eslintrc.json`
 
 ```JSON
 {
-	"extends": "gemcook/node-ts"
+  "extends": "gemcook/node-ts"
 }
 ```
 
