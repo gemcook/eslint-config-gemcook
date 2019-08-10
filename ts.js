@@ -5,10 +5,13 @@ const WARNING = 1;
 const ERROR = 2;
 
 module.exports = {
-  extends: ['./rules/base', './rules/react'].map(require.resolve),
+  extends: ['./rules/base', './rules/typescript', './rules/react'].map(
+    require.resolve
+  ),
   parserOptions: {
-    ecmaVersion: 2019,
+    version: 2019,
     sourceType: 'module',
+    project: './tsconfig.json',
     ecmaFeatures: {
       jsx: true,
     },

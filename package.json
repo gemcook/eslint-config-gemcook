@@ -3,14 +3,18 @@
   "version": "1.9.1",
   "main": "index.js",
   "repository": "https://github.com/gemcook/eslint-config-gemcook.git",
-  "author": "Gemcook, Inc.",
+  "author": "Gemcook Engineers <engineers@gemcook.com>",
   "license": "MIT",
   "files": [
+    "rules",
     "index.js",
     "node.js",
-    "html.js"
+    "ts.js",
+    "node-ts.js",
+    "LICENSE",
+    "README.md"
   ],
-  "dependencies": {
-    "confusing-browser-globals": "^1.0.5"
+  "peerDependencies": {
+    "eslint": "^5.16.0"
   }
 }

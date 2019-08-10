@@ -1,87 +1,121 @@
 # eslint-config-gemcook
 
+- [Getting Start](#getting-start)
+	* [Install](#install)
+	* [Additional install](#additional-install)
+		+ [If your project is Web on Plain JS](#if-your-project-is-web-on-plain-js)
+		+ [If your project is Web on TypeScript](#if-your-project-is-web-on-typescript)
+		+ [If your project is Node on Plain JS](#if-your-project-is-node-on-plain-js)
+		+ [If your project is Node on TypeScript](#if-your-project-is-node-on-typescript)
+- [Usage](#usage)
+	* [Web on Plain JS](#web-on-plain-js)
+	* [Web on TypeScript](#web-on-typescript)
+	* [Web on Plain JS](#web-on-plain-js-1)
+	* [Web on TypeScript](#web-on-typescript-1)
+- [License](#license)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+## Getting Start
+
+### Install
+
+```Shell
+yarn add eslint-config-gemcook
+```
+
+### Additional install
+
+#### If your project is Web on Plain JS
+
+```Shell
+yarn add --dev \
+	eslint \
+	eslint-config-prettier \
+	eslint-plugin-prettier \
+	eslint-plugin-jest \
+	eslint-plugin-react \
+	eslint-plugin-react-hooks
+```
+
+#### If your project is Web on TypeScript
+
+```Shell
+yarn add --dev \
+	eslint \
+	eslint-config-prettier \
+	eslint-plugin-prettier \
+	eslint-plugin-jest \
+	eslint-plugin-react \
+	eslint-plugin-react-hooks \
+	@typescript-eslint/eslint-plugin \
+	@typescript-eslint/parser
+```
+
+#### If your project is Node on Plain JS
+
+```Shell
+yarn add --dev \
+	eslint \
+	eslint-config-prettier \
+	eslint-plugin-prettier \
+	eslint-plugin-jest \
+	eslint-plugin-node \
+	eslint-plugin-react \
+	eslint-plugin-react-hooks
+```
+
+#### If your project is Node on TypeScript
+
+```Shell
+yarn add --dev \
+	eslint \
+	eslint-config-prettier \
+	eslint-plugin-prettier \
+	eslint-plugin-jest \
+	eslint-plugin-node \
+	eslint-plugin-react \
+	eslint-plugin-react-hooks \
+	@typescript-eslint/eslint-plugin \
+	@typescript-eslint/parser
+```
+
 ## Usage
 
-### Install:
+Set `.eslintrc.json`
 
-#### `yarn`
+### Web on Plain JS
 
-##### Web
-
-```sh
-yarn add --dev \
-  eslint-config-gemcook \
-  eslint-config-fbjs \
-  eslint-config-prettier \
-  eslint-plugin-babel \
-  eslint-plugin-import \
-  eslint-plugin-flowtype \
-  eslint-plugin-jsx-a11y \
-  eslint-plugin-react \
-  eslint-plugin-relay \
-  eslint-plugin-prettier \
-  eslint \
-  babel-eslint \
-  prettier \
-  prettier-eslint
-```
-
-##### Node.js
-
-```sh
-yarn add --dev \
-  eslint-config-gemcook \
-  eslint-config-fbjs \
-  eslint-config-prettier \
-  eslint-plugin-babel \
-  eslint-plugin-import \
-  eslint-plugin-flowtype \
-  eslint-plugin-jsx-a11y \
-  eslint-plugin-react \
-  eslint-plugin-relay \
-  eslint-plugin-prettier \
-  eslint-plugin-node \
-  eslint \
-  babel-eslint \
-  prettier \
-  prettier-eslint
-```
-
-### Configure
-
-Then create a file named .eslintrc with following contents in the root folder of your project:
-
-#### Web
-
-```js
+```JSON
 {
-  "extends": "gemcook"
+	"extends": "gemcook"
 }
 ```
 
-#### Node.js
+### Web on TypeScript
 
-```js
+```JSON
 {
-  "extends": "gemcook/node"
+	"extends": "gemcook/ts"
 }
 ```
 
-### Tips
+### Web on Plain JS
 
-if you use Node.js, follow described below.
-
-e.g. package.json
-
-[Disallow unsupported ECMAScript features on the specified version (no-unsupported-features)](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unsupported-features.md#version)
-
-
-```
+```JSON
 {
-    "name": "your-module",
-    "version": "1.0.0",
-    "engines": {
-        "node": ">=6.0.0"
-    }
+	"extends": "gemcook/node"
 }
 ```
+
+### Web on TypeScript
+
+```JSON
+{
+	"extends": "gemcook/node-ts"
+}
+```
+
+## License
+
+[MIT](https://github.com/gemcook/eslint-config-gemcook/blob/master/LICENSE)
